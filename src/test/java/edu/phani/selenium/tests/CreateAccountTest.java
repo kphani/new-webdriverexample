@@ -1,7 +1,9 @@
+package edu.phani.selenium.tests;
+
+import edu.phani.selenium.pages.RegistrationPage;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.WebDriver;
 
 /**
  * Created by srinivas on 26/09/2014.
