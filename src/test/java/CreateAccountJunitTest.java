@@ -1,20 +1,19 @@
-package edu.phani.selenium.tests;
-
 import edu.phani.selenium.pages.RegistrationPage;
+import edu.phani.selenium.stepdefinitions.AbstractTest;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 /**
- * Created by srinivas on 26/09/2014.
+ * Created by kphani on 26/09/2014.
  */
-public class CreateAccountTest extends BaseTest {
+public class CreateAccountJunitTest extends AbstractTest {
     RegistrationPage regPage;
 
 
     @Before
     public void initPages() {
-        regPage = navigation.toRegistrationPage();
+        regPage = navigation.toGMailRegistrationPage();
     }
 
 

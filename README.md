@@ -1,13 +1,37 @@
 new-webdriverexample
 ====================
 
-This simple example of Webdriver project configuration using page object model, to automate web tests. 
-This uses Junit framework wirte tests.
+This is simple test framework example for setting up Selenium/Webdriver project using Maven.
 
-Just git clone the project to your local directory and run below-
+Covers:
+-Page object Model
+-Junit test example
+-Cucumber test example
+-Cucumber Hooks
 
-mvn idea:idea   -- which creates Intellij project structure
+Steps:
+-------
+
+Just git clone the project to your local directory and run below:
+
+mvn idea:idea
 
 mvn clean install
 
 After build was successful, go to Intellij -> open projects -> select project
+
+
+
+Hope this helps!
+
+
+Any questions or comments you can message me at
+
+http://uk.linkedin.com/in/kphani/
+
+or email: Pkaliginadi@gmail.com
+
+Thanks,
+
+Phani K
+

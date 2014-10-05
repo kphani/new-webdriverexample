@@ -1,4 +1,4 @@
-package edu.phani.selenium.tests;
+package edu.phani.selenium.stepdefinitions;
 
 import edu.phani.selenium.help.DriverDiscovery;
 import edu.phani.selenium.pages.Navigation;
@@ -8,12 +8,12 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 /**
  * Created by kphani on 28/09/2014.
  */
-public class BaseTest {
+public abstract class AbstractTest {
     final static RemoteWebDriver driver = DriverDiscovery.getDriver();
+    public Navigation navigation = new Navigation(driver);
 
-    Navigation navigation = new Navigation(driver);
 
-
+    //Will used by Junit Test
     @AfterClass
     public static void tearDown() {
         driver.quit();
